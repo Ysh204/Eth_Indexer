@@ -1,6 +1,7 @@
 # ETH Indexer
 
 A full-stack Ethereum deposit indexer that monitors the Sepolia testnet for incoming ETH transactions and automatically credits user balances — similar to how centralized exchanges (e.g. Binance) handle deposits.
+so like the backend will get the blocks and in those blocks it will find the transactions and if the transaction is to the deposit address it will credit the user balance. and frontend will show the txn 
 
 ## Architecture
 
